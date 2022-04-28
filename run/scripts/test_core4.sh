@@ -1,0 +1,9 @@
+./test_single.sh 4 C1 gs 0
+./test_single.sh 4 C1 iamb 4
+./test_single.sh 4 C1 inter.iamb 8
+./test_single.sh 4 C2 gs 12
+./test_single.sh 4 C2 iamb 16
+./test_single.sh 4 C2 inter.iamb 20
+./test_single.sh 4 C3 gs 24
+./test_single.sh 4 C3 iamb 28
+./test_single.sh 4 C3 inter.iamb 32

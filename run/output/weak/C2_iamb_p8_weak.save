@@ -1,0 +1,33 @@
+*** Writing the results to /home/repro/run/output/weak/C2_iamb_p8_weak.csv ***
+
+
+Started the run at Tue Nov 16 12:18:00 2021
+mpirun -np 8 -env MV2_SHOW_CPU_BINDING 2 -env MV2_CPU_MAPPING 8:9:10:11:12:13:14:15 /home/repro/run/scripts/../../compile/ramBLe/ramble -d -a iamb -f /home/repro/run/scripts/../output/scratch/C2_discretized.tsv.7071 -n 7071 -m 11180 -s '	' -c -v -i -o /home/repro/run/scripts/../output/scratch/C2_iamb_p8_weak.dot -r --warmup --hostnames
+Time taken in initializing MPI: 0.111932
+
+*** Host names ***
+0: inst-qne6j-team8
+1: inst-qne6j-team8
+2: inst-qne6j-team8
+3: inst-qne6j-team8
+4: inst-qne6j-team8
+5: inst-qne6j-team8
+6: inst-qne6j-team8
+7: inst-qne6j-team8
+******
+Time taken in warming up MPI: 0.00053638
+Time taken in reading the file: 3.51049
+Time taken in getting the network: 320.193
+Time taken in writing the network: 0.0131055
+Time taken in growing the candidate blankets: 320.066
+Time taken in shrinking the candidate blankets: 0.0256741
+Time taken in redistributing: 0.07459
+Time taken in symmetry correcting the blankets: 0.000865725
+Time taken in synchronizing the blankets: 0.0503935
+Time taken in getting the blankets: 320.15
+Time taken in getting the neighbors: 0.0321728
+Time taken in mxx calls: 19.9807
+Time taken in directing the edges: 0.00860783
+Time taken in G-square computations: 304.174
+Finished the run at Tue Nov 16 12:23:24 2021
+

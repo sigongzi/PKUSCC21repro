@@ -1,0 +1,20 @@
+*** Writing the results to /home/repro/run/output/strong/C2_gs_p1_strong.csv ***
+
+
+Started the run at Tue Nov 16 06:03:58 2021
+mpirun -np 1 -env MV2_SHOW_CPU_BINDING 2 -env MV2_CPU_MAPPING 3 /home/repro/run/scripts/../../compile/ramBLe/ramble -d -a gs -f /home/repro/run/scripts/data/C2_discretized.tsv -n 30307 -m 11180 -s '	' -c -v -i -r --warmup --hostnames -o /home/repro/run/scripts/../output/scratch/C2_gs_p1_strong.dot
+Time taken in initializing MPI: 0.0702928
+
+*** Host names ***
+0: inst-ycduy-team8
+******
+Time taken in reading the file: 100.531
+Time taken in getting the network: 25734.3
+Time taken in writing the network: 0.0370838
+Time taken in growing the candidate blankets: 25731.7
+Time taken in shrinking the candidate blankets: 1.79019
+Time taken in mxx calls: 0
+Time taken in directing the edges: 0.0640885
+Time taken in G-square computations: 25110.1
+Finished the run at Tue Nov 16 13:14:33 2021
+

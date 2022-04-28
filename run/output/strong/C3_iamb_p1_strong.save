@@ -1,0 +1,20 @@
+*** Writing the results to /home/repro/run/output/strong/C3_iamb_p1_strong.csv ***
+
+
+Started the run at Tue Nov 16 06:04:08 2021
+mpirun -np 1 -env MV2_SHOW_CPU_BINDING 2 -env MV2_CPU_MAPPING 7 /home/repro/run/scripts/../../compile/ramBLe/ramble -d -a iamb -f /home/repro/run/scripts/data/C3_discretized.tsv -n 30604 -m 12909 -s '	' -c -v -i -r --warmup --hostnames -o /home/repro/run/scripts/../output/scratch/C3_iamb_p1_strong.dot
+Time taken in initializing MPI: 0.0728581
+
+*** Host names ***
+0: inst-ycduy-team8
+******
+Time taken in reading the file: 118.352
+Time taken in getting the network: 74974.4
+Time taken in writing the network: 0.0393717
+Time taken in growing the candidate blankets: 74971.4
+Time taken in shrinking the candidate blankets: 1.99541
+Time taken in mxx calls: 0
+Time taken in directing the edges: 0.078867
+Time taken in G-square computations: 73411.9
+Finished the run at Wed Nov 17 02:55:41 2021
+

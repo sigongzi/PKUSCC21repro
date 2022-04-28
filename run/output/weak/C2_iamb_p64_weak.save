@@ -1,0 +1,89 @@
+*** Writing the results to /home/repro/run/output/weak/C2_iamb_p64_weak.csv ***
+
+
+Started the run at Wed Nov 17 01:25:41 2021
+mpirun -np 64 -hostfile ./hostfile -env MV2_SHOW_CPU_BINDING 2 -env MV2_CPU_MAPPING 0:1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:18:19:20:21:22:23:24:25:26:27:28:29:30:31 /home/repro/run/scripts/../../compile/ramBLe/ramble -d -a iamb -f /home/repro/run/scripts/../output/scratch/C2_discretized.tsv.20000 -n 20000 -m 11180 -s '	' -c -v -i -o /home/repro/run/scripts/../output/scratch/C2_iamb_p64_weak.dot -r --warmup --hostnames
+Time taken in initializing MPI: 1.49846
+
+*** Host names ***
+0: inst-4vmsm-team8
+1: inst-cxfvs-team8
+2: inst-4vmsm-team8
+3: inst-cxfvs-team8
+4: inst-4vmsm-team8
+5: inst-cxfvs-team8
+6: inst-4vmsm-team8
+7: inst-cxfvs-team8
+8: inst-4vmsm-team8
+9: inst-cxfvs-team8
+10: inst-4vmsm-team8
+11: inst-cxfvs-team8
+12: inst-4vmsm-team8
+13: inst-cxfvs-team8
+14: inst-4vmsm-team8
+15: inst-cxfvs-team8
+16: inst-4vmsm-team8
+17: inst-cxfvs-team8
+18: inst-4vmsm-team8
+19: inst-cxfvs-team8
+20: inst-4vmsm-team8
+21: inst-cxfvs-team8
+22: inst-4vmsm-team8
+23: inst-cxfvs-team8
+24: inst-4vmsm-team8
+25: inst-cxfvs-team8
+26: inst-4vmsm-team8
+27: inst-cxfvs-team8
+28: inst-4vmsm-team8
+29: inst-cxfvs-team8
+30: inst-4vmsm-team8
+31: inst-cxfvs-team8
+32: inst-4vmsm-team8
+33: inst-cxfvs-team8
+34: inst-4vmsm-team8
+35: inst-cxfvs-team8
+36: inst-4vmsm-team8
+37: inst-cxfvs-team8
+38: inst-4vmsm-team8
+39: inst-cxfvs-team8
+40: inst-4vmsm-team8
+41: inst-cxfvs-team8
+42: inst-4vmsm-team8
+43: inst-cxfvs-team8
+44: inst-4vmsm-team8
+45: inst-cxfvs-team8
+46: inst-4vmsm-team8
+47: inst-cxfvs-team8
+48: inst-4vmsm-team8
+49: inst-cxfvs-team8
+50: inst-4vmsm-team8
+51: inst-cxfvs-team8
+52: inst-4vmsm-team8
+53: inst-cxfvs-team8
+54: inst-4vmsm-team8
+55: inst-cxfvs-team8
+56: inst-4vmsm-team8
+57: inst-cxfvs-team8
+58: inst-4vmsm-team8
+59: inst-cxfvs-team8
+60: inst-4vmsm-team8
+61: inst-cxfvs-team8
+62: inst-4vmsm-team8
+63: inst-cxfvs-team8
+******
+Time taken in warming up MPI: 0.00128384
+Time taken in reading the file: 3.23148
+Time taken in getting the network: 413.105
+Time taken in writing the network: 0.0300322
+Time taken in growing the candidate blankets: 412.387
+Time taken in shrinking the candidate blankets: 0.016435
+Time taken in redistributing: 1.36289
+Time taken in symmetry correcting the blankets: 0.00289926
+Time taken in synchronizing the blankets: 1.53293
+Time taken in getting the blankets: 412.505
+Time taken in getting the neighbors: 0.572943
+Time taken in mxx calls: 56.4141
+Time taken in directing the edges: 0.0038447
+Time taken in G-square computations: 378.393
+Finished the run at Wed Nov 17 01:32:40 2021
+

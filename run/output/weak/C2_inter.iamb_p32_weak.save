@@ -1,0 +1,57 @@
+*** Writing the results to /home/repro/run/output/weak/C2_inter.iamb_p32_weak.csv ***
+
+
+Started the run at Wed Nov 17 01:06:55 2021
+mpirun -np 32 -env MV2_SHOW_CPU_BINDING 2 -env MV2_CPU_MAPPING 0:1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:18:19:20:21:22:23:24:25:26:27:28:29:30:31 /home/repro/run/scripts/../../compile/ramBLe/ramble -d -a inter.iamb -f /home/repro/run/scripts/../output/scratch/C2_discretized.tsv.14142 -n 14142 -m 11180 -s '	' -c -v -i -o /home/repro/run/scripts/../output/scratch/C2_inter.iamb_p32_weak.dot -r --warmup --hostnames
+Time taken in initializing MPI: 0.190764
+
+*** Host names ***
+0: inst-4vmsm-team8
+1: inst-4vmsm-team8
+2: inst-4vmsm-team8
+3: inst-4vmsm-team8
+4: inst-4vmsm-team8
+5: inst-4vmsm-team8
+6: inst-4vmsm-team8
+7: inst-4vmsm-team8
+8: inst-4vmsm-team8
+9: inst-4vmsm-team8
+10: inst-4vmsm-team8
+11: inst-4vmsm-team8
+12: inst-4vmsm-team8
+13: inst-4vmsm-team8
+14: inst-4vmsm-team8
+15: inst-4vmsm-team8
+16: inst-4vmsm-team8
+17: inst-4vmsm-team8
+18: inst-4vmsm-team8
+19: inst-4vmsm-team8
+20: inst-4vmsm-team8
+21: inst-4vmsm-team8
+22: inst-4vmsm-team8
+23: inst-4vmsm-team8
+24: inst-4vmsm-team8
+25: inst-4vmsm-team8
+26: inst-4vmsm-team8
+27: inst-4vmsm-team8
+28: inst-4vmsm-team8
+29: inst-4vmsm-team8
+30: inst-4vmsm-team8
+31: inst-4vmsm-team8
+******
+Time taken in warming up MPI: 0.000997617
+Time taken in reading the file: 2.40597
+Time taken in getting the network: 395.138
+Time taken in writing the network: 0.0219003
+Time taken in growing the candidate blankets: 393.16
+Time taken in shrinking the candidate blankets: 0.164958
+Time taken in redistributing: 0.713832
+Time taken in symmetry correcting the blankets: 0.0015753
+Time taken in synchronizing the blankets: 0.627893
+Time taken in getting the blankets: 394.983
+Time taken in getting the neighbors: 0.143074
+Time taken in mxx calls: 49.3118
+Time taken in directing the edges: 0.00285465
+Time taken in G-square computations: 368.29
+Finished the run at Wed Nov 17 01:13:33 2021
+

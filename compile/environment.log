@@ -1,0 +1,141 @@
+MANPATH=/opt/rh/devtoolset-9/root/usr/share/man:
+XDG_SESSION_ID=5164
+HOSTNAME=team8-bastion
+TERM=xterm-256color
+SHELL=/bin/bash
+HISTSIZE=1000
+SSH_CLIENT=115.27.196.8 27903 22
+X_SCLS=devtoolset-9 
+SSH_TTY=/dev/pts/1
+PCP_DIR=/opt/rh/devtoolset-9/root
+USER=USER
+LD_LIBRARY_PATH=/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib:/opt/rh/devtoolset-9/root/usr/lib64/dyninst:/opt/rh/devtoolset-9/root/usr/lib/dyninst:/opt/rh/devtoolset-9/root/usr/lib64:/opt/rh/devtoolset-9/root/usr/lib
+LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+MAIL=/var/spool/mail/USER
+PATH=/opt/rh/devtoolset-9/root/usr/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibutils/bin:/home/USER/.local/bin:/home/USER/bin
+_=/usr/bin/env
+PWD=/home/USER/compile/Author-Kit
+LANG=en_US.UTF-8
+MODULEPATH=/usr/share/Modules/modulefiles:/etc/modulefiles
+LOADEDMODULES=
+HISTCONTROL=ignoredups
+SHLVL=5
+HOME=/home/USER
+LOGNAME=USER
+SSH_CONNECTION=115.27.196.8 27903 172.24.16.113 22
+MODULESHOME=/usr/share/Modules
+PKG_CONFIG_PATH=/opt/rh/devtoolset-9/root/usr/lib64/pkgconfig
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+INFOPATH=/opt/rh/devtoolset-9/root/usr/share/info
+XDG_RUNTIME_DIR=/run/user/1502
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+LSB Version:	:core-4.1-amd64:core-4.1-noarch
+Distributor ID:	OracleServer
+Description:	Oracle Linux Server release 7.9
+Release:	7.9
+Codename:	n/a
+Linux team8-bastion 3.10.0-1160.25.1.el7.x86_64 #1 SMP Tue Apr 27 15:52:10 PDT 2021 x86_64 x86_64 x86_64 GNU/Linux
+Architecture:          x86_64
+CPU op-mode(s):        32-bit, 64-bit
+Byte Order:            Little Endian
+CPU(s):                16
+On-line CPU(s) list:   0-15
+Thread(s) per core:    2
+Core(s) per socket:    8
+Socket(s):             1
+NUMA node(s):          1
+Vendor ID:             GenuineIntel
+CPU family:            6
+Model:                 106
+Model name:            Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz
+Stepping:              6
+CPU MHz:               2993.048
+BogoMIPS:              5986.09
+Virtualization:        VT-x
+Hypervisor vendor:     KVM
+Virtualization type:   full
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              4096K
+L3 cache:              16384K
+NUMA node0 CPU(s):     0-15
+Flags:                 fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ss ht syscall nx pdpe1gb rdtscp lm constant_tsc arch_perfmon rep_good nopl xtopology eagerfpu pni pclmulqdq vmx ssse3 fma cx16 pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand hypervisor lahf_lm abm 3dnowprefetch invpcid_single ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 arat avx512vbmi umip pku ospke avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq md_clear spec_ctrl intel_stibp arch_capabilities
+MemTotal:       131857028 kB
+MemFree:        102005940 kB
+MemAvailable:   125749744 kB
+Buffers:            4160 kB
+Cached:         23658996 kB
+SwapCached:            0 kB
+Active:          7206776 kB
+Inactive:       17262928 kB
+Active(anon):     879464 kB
+Inactive(anon):    45036 kB
+Active(file):    6327312 kB
+Inactive(file): 17217892 kB
+Unevictable:       12712 kB
+Mlocked:           12768 kB
+SwapTotal:       8388604 kB
+SwapFree:        8388604 kB
+Dirty:               232 kB
+Writeback:             0 kB
+AnonPages:        819792 kB
+Mapped:           161540 kB
+Shmem:            107424 kB
+Slab:            1166936 kB
+SReclaimable:     987524 kB
+SUnreclaim:       179412 kB
+KernelStack:        7856 kB
+PageTables:        14140 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    74317116 kB
+Committed_AS:    3319820 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:      238688 kB
+VmallocChunk:   34359486460 kB
+Percpu:             3200 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:    630784 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+DirectMap4k:      395728 kB
+DirectMap2M:     9035776 kB
+DirectMap1G:    126877696 kB
+NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda      8:0    0  200G  0 disk 
+├─sda1   8:1    0  200M  0 part /boot/efi
+├─sda2   8:2    0    8G  0 part [SWAP]
+└─sda3   8:3    0 38.4G  0 part /
+sdb      8:16   0 1000G  0 disk /export/cluster
+[2:0:1:1]    disk    ORACLE   BlockVolume      1.0   /dev/sda    214GB
+[3:0:0:0]    storage IET      Controller       0001  -               -
+[3:0:0:2]    disk    ORACLE   BlockVolume      1.0   /dev/sdb   1.07TB
+H/W path      Device  Class          Description
+================================================
+                      system         Computer
+/0                    bus            Motherboard
+/0/0                  memory         128GiB System memory
+/0/1                  processor      Intel(R) Xeon(R) Gold 6354 CPU @ 3.00GHz
+/0/100                bridge         440FX - 82441FX PMC [Natoma]
+/0/100/1              bridge         82371SB PIIX3 ISA [Natoma/Triton II]
+/0/100/1.1            storage        82371SB PIIX3 IDE [Natoma/Triton II]
+/0/100/1.2            bus            82371SB PIIX3 USB [Natoma/Triton II]
+/0/100/1.3            bridge         82371AB/EB/MB PIIX4 ACPI
+/0/100/2              display        VGA compatible controller
+/0/100/3      ens3    network        ConnectX Family mlx5Gen Virtual Function
+/0/100/d              bridge         QEMU PCI-PCI bridge
+/0/100/d/0            storage        Virtio SCSI
+/0/100/d/0/0          generic        Virtual I/O device
+/0/100/e              bridge         QEMU PCI-PCI bridge
+/0/2                  system         PnP device PNP0b00
+/0/3                  input          PnP device PNP0303
+/0/4                  input          PnP device PNP0f13
+/0/5                  storage        PnP device PNP0700
+/0/6                  communication  PnP device PNP0501

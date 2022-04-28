@@ -1,0 +1,153 @@
+*** Writing the results to /home/repro/run/output/strong/C2_gs_p128_strong.csv ***
+
+
+Started the run at Wed Nov 17 07:14:22 2021
+mpirun -np 128 -hostfile ././hostfile4 -env MV2_SHOW_CPU_BINDING 2 -env MV2_CPU_MAPPING 0:1:2:3:4:5:6:7:8:9:10:11:12:13:14:15:16:17:18:19:20:21:22:23:24:25:26:27:28:29:30:31 /home/repro/run/scripts/../../compile/ramBLe/ramble -d -a gs -f /home/repro/run/scripts/data/C2_discretized.tsv -n 30307 -m 11180 -s '	' -c -v -i -r --warmup --hostnames -o /home/repro/run/scripts/../output/scratch/C2_gs_p128_strong.dot
+Time taken in initializing MPI: 0.661766
+
+*** Host names ***
+0: inst-4vmsm-team8
+1: inst-cxfvs-team8
+2: inst-qne6j-team8
+3: inst-ycduy-team8
+4: inst-4vmsm-team8
+5: inst-cxfvs-team8
+6: inst-qne6j-team8
+7: inst-ycduy-team8
+8: inst-4vmsm-team8
+9: inst-cxfvs-team8
+10: inst-qne6j-team8
+11: inst-ycduy-team8
+12: inst-4vmsm-team8
+13: inst-cxfvs-team8
+14: inst-qne6j-team8
+15: inst-ycduy-team8
+16: inst-4vmsm-team8
+17: inst-cxfvs-team8
+18: inst-qne6j-team8
+19: inst-ycduy-team8
+20: inst-4vmsm-team8
+21: inst-cxfvs-team8
+22: inst-qne6j-team8
+23: inst-ycduy-team8
+24: inst-4vmsm-team8
+25: inst-cxfvs-team8
+26: inst-qne6j-team8
+27: inst-ycduy-team8
+28: inst-4vmsm-team8
+29: inst-cxfvs-team8
+30: inst-qne6j-team8
+31: inst-ycduy-team8
+32: inst-4vmsm-team8
+33: inst-cxfvs-team8
+34: inst-qne6j-team8
+35: inst-ycduy-team8
+36: inst-4vmsm-team8
+37: inst-cxfvs-team8
+38: inst-qne6j-team8
+39: inst-ycduy-team8
+40: inst-4vmsm-team8
+41: inst-cxfvs-team8
+42: inst-qne6j-team8
+43: inst-ycduy-team8
+44: inst-4vmsm-team8
+45: inst-cxfvs-team8
+46: inst-qne6j-team8
+47: inst-ycduy-team8
+48: inst-4vmsm-team8
+49: inst-cxfvs-team8
+50: inst-qne6j-team8
+51: inst-ycduy-team8
+52: inst-4vmsm-team8
+53: inst-cxfvs-team8
+54: inst-qne6j-team8
+55: inst-ycduy-team8
+56: inst-4vmsm-team8
+57: inst-cxfvs-team8
+58: inst-qne6j-team8
+59: inst-ycduy-team8
+60: inst-4vmsm-team8
+61: inst-cxfvs-team8
+62: inst-qne6j-team8
+63: inst-ycduy-team8
+64: inst-4vmsm-team8
+65: inst-cxfvs-team8
+66: inst-qne6j-team8
+67: inst-ycduy-team8
+68: inst-4vmsm-team8
+69: inst-cxfvs-team8
+70: inst-qne6j-team8
+71: inst-ycduy-team8
+72: inst-4vmsm-team8
+73: inst-cxfvs-team8
+74: inst-qne6j-team8
+75: inst-ycduy-team8
+76: inst-4vmsm-team8
+77: inst-cxfvs-team8
+78: inst-qne6j-team8
+79: inst-ycduy-team8
+80: inst-4vmsm-team8
+81: inst-cxfvs-team8
+82: inst-qne6j-team8
+83: inst-ycduy-team8
+84: inst-4vmsm-team8
+85: inst-cxfvs-team8
+86: inst-qne6j-team8
+87: inst-ycduy-team8
+88: inst-4vmsm-team8
+89: inst-cxfvs-team8
+90: inst-qne6j-team8
+91: inst-ycduy-team8
+92: inst-4vmsm-team8
+93: inst-cxfvs-team8
+94: inst-qne6j-team8
+95: inst-ycduy-team8
+96: inst-4vmsm-team8
+97: inst-cxfvs-team8
+98: inst-qne6j-team8
+99: inst-ycduy-team8
+100: inst-4vmsm-team8
+101: inst-cxfvs-team8
+102: inst-qne6j-team8
+103: inst-ycduy-team8
+104: inst-4vmsm-team8
+105: inst-cxfvs-team8
+106: inst-qne6j-team8
+107: inst-ycduy-team8
+108: inst-4vmsm-team8
+109: inst-cxfvs-team8
+110: inst-qne6j-team8
+111: inst-ycduy-team8
+112: inst-4vmsm-team8
+113: inst-cxfvs-team8
+114: inst-qne6j-team8
+115: inst-ycduy-team8
+116: inst-4vmsm-team8
+117: inst-cxfvs-team8
+118: inst-qne6j-team8
+119: inst-ycduy-team8
+120: inst-4vmsm-team8
+121: inst-cxfvs-team8
+122: inst-qne6j-team8
+123: inst-ycduy-team8
+124: inst-4vmsm-team8
+125: inst-cxfvs-team8
+126: inst-qne6j-team8
+127: inst-ycduy-team8
+******
+Time taken in warming up MPI: 1.51096
+Time taken in reading the file: 3.94882
+Time taken in getting the network: 398.706
+Time taken in writing the network: 0.0378373
+Time taken in growing the candidate blankets: 397.317
+Time taken in shrinking the candidate blankets: 0.0161501
+Time taken in redistributing: 3.60473
+Time taken in symmetry correcting the blankets: 0.00507097
+Time taken in synchronizing the blankets: 4.02843
+Time taken in getting the blankets: 397.464
+Time taken in getting the neighbors: 1.20372
+Time taken in mxx calls: 282.607
+Time taken in directing the edges: 0.00343045
+Time taken in G-square computations: 225.714
+Finished the run at Wed Nov 17 07:21:08 2021
+

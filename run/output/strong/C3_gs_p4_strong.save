@@ -1,0 +1,29 @@
+*** Writing the results to /home/repro/run/output/strong/C3_gs_p4_strong.csv ***
+
+
+Started the run at Tue Nov 16 06:01:08 2021
+mpirun -np 4 -env MV2_SHOW_CPU_BINDING 2 -env MV2_CPU_MAPPING 24:25:26:27 /home/repro/run/scripts/../../compile/ramBLe/ramble -d -a gs -f /home/repro/run/scripts/data/C3_discretized.tsv -n 30604 -m 12909 -s '	' -c -v -i -r --warmup --hostnames -o /home/repro/run/scripts/../output/scratch/C3_gs_p4_strong.dot
+Time taken in initializing MPI: 0.192324
+
+*** Host names ***
+0: inst-qne6j-team8
+1: inst-qne6j-team8
+2: inst-qne6j-team8
+3: inst-qne6j-team8
+******
+Time taken in warming up MPI: 3.976e-05
+Time taken in reading the file: 31.3281
+Time taken in getting the network: 11237.6
+Time taken in writing the network: 0.0376523
+Time taken in growing the candidate blankets: 11234.8
+Time taken in shrinking the candidate blankets: 0.613462
+Time taken in redistributing: 9.28506
+Time taken in symmetry correcting the blankets: 0.0560078
+Time taken in synchronizing the blankets: 1.2229
+Time taken in getting the blankets: 11237.1
+Time taken in getting the neighbors: 0.394833
+Time taken in mxx calls: 4877.83
+Time taken in directing the edges: 0.00942846
+Time taken in G-square computations: 10021.3
+Finished the run at Tue Nov 16 09:08:58 2021
+
