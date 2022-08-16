@@ -1,0 +1,16 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: PKUSCC21repro
+message: >-
+  Part of artifact of PKU SuperComputing team
+  reproducibility task in SCC21
+type: software
+authors:
+  - given-names: Ivory
+    family-names: Seagull
+    email: sigongzi4711@gmail.com
+    name-suffix: Eleven
+    affiliation: Peking University Computing Center
+    orcid: 'https://orcid.org/0000-0002-6717-1408'
